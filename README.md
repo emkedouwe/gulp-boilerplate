@@ -31,8 +31,6 @@
 
 ### Minification
 
-
-
 ### Live Reload
 
 - [browser-sync](https://github.com/BrowserSync/browser-sync) - Keep multiple browsers & devices in sync when building websites ([recipes](https://github.com/BrowserSync/gulp-browser-sync)).
@@ -41,6 +39,10 @@
 ### Logging
 
 - [gulp-notify](https://github.com/mikaelbr/gulp-notify) - Notification plugin for gulp.
+
+### Testing
+
+- [PSI](https://www.npmjs.com/package/psi) - Google PageSpeed Insights
 
 ### Miscellaneous Plugins
 

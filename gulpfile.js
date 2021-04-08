@@ -6,9 +6,11 @@ const browser = require('browser-sync');
 const imagemin = require('gulp-imagemin');
 const extReplace = require("gulp-ext-replace");
 const webp = require("imagemin-webp");
+const psi = require("psi");
+
 
 // Check for --production flag
-const PRODUCTION = !!(yargs.argv.production);
+//const PRODUCTION = !!(yargs.argv.production);
 
 gulp.task('clean', () => {
   return del([
@@ -52,6 +54,20 @@ gulp.task('images:webp', () => {
     }))
     .pipe(extReplace(".webp"))
     .pipe(gulp.dest('assets/images'));
+});
+
+// Run PageSpeed Insights
+gulp.task('pagespeed', cb => {
+
+  // Update the below URL to the public URL of your site
+  return psi.output('sprintprint.netlify.com', {
+    strategy: 'mobile',
+    nokey: 'true',
+    // By default we use the PageSpeed Insights free (no API key) tier.
+    // Use a Google Developer API key if you have one: http://goo.gl/RkN0vE
+    // key: 'YOUR_API_KEY'
+  }, cb)
+
 });
 
 gulp.task('server', function(done) {
