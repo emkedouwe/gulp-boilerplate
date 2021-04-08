@@ -1,0 +1,24 @@
+{
+  "name": "gulptest",
+  "version": "1.0.0",
+  "description": "Test voor compilatie van scss",
+  "author": "Devani",
+  "license": "ISC",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --production"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.1.0",
+    "imagemin-webp": "^6.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}

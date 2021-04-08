@@ -1,0 +1,30 @@
+/* == FONTS == */
+/* Headings */
+/* Menu */
+/* Default Text */
+/* H1 */
+/* H2 */
+/* H3 */
+/* H4 */
+/* H5 */
+/* Font base */
+/* Lead font-size */
+/* Heading weight */
+/* == COLORS == */
+/* == BREAKPOINTS FROM BOOTSTRAP == */
+/* == BOOTSTRAP THEMING == */
+/* Typography */
+/* Buttons */
+/* Modal */
+/* Navbar */
+/* Card */
+/* Button */
+/* List group */
+@import './variables';
+
+.test {
+    border: 1px solid #FFF;
+}
+h1 {
+    color: $primary;
+}

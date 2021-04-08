@@ -1,0 +1,130 @@
+/* == FONTS == */
+
+    /* Headings */
+    $fnt-headings: 				'aleoregular', sans-serif;
+
+    /* Menu */
+    $fnt-menu: 					'itc-officina-sans-pro', sans-serif;
+
+    /* Default Text */
+    $fnt-default-text: 			'itc-officina-sans-pro', sans-serif;
+	
+	$font-family-sans-serif: 	$fnt-default-text;
+	$font-size-base:			1.125rem;
+
+	/* H1 */
+	$h1-font-size: 				2.375rem;
+
+	/* H2 */	
+	$h2-font-size: 				1.75rem;
+
+	/* H3 */	
+	$h3-font-size: 				1.625rem;
+
+	/* H4 */	
+	$h4-font-size: 				1.5rem;
+	
+	/* H5 */
+	$h5-font-size:				1.375rem;
+
+	/* H6 */
+	$h6-font-size:				1.25rem;
+
+	/* Lead font-size */
+	$lead-font-size:			1.375rem;
+	
+	/* Heading weight */
+	$headings-font-weight:		500;
+
+	/* Display */
+	$display4-size:				3.5rem;
+	$display4-weight:			700;
+
+/* == COLORS == */
+
+	$clr-green-darkest:			#19240D;
+	$clr-green-dark:			#3A531E;
+	$clr-green:					#547E13;
+	$clr-green-light:			#8DAD13;
+	$clr-green-trans:			#313927;
+
+	$clr-blue:					#107989;
+	$clr-blue-dark:				#2A575E;
+	$clr-pink:					#CA2260;
+	$clr-pink-dark: 			#6A0B2E;
+	
+	$clr-white:					#FFFFFF;
+
+	$primary: 					$clr-green-light;
+	$secondary:					$clr-green-dark;
+	
+	// bg-light
+	$gray-100:					#F4F4F6;
+
+	$gray-300:					#D1D1D1;
+	
+	$gray-500: 					#909090;
+
+	// text-muted
+	$gray-600:					#5E5E5E;
+
+	$body-bg:					$clr-white;
+	$body-color:				$gray-600;
+
+	$yiq-contrasted-threshold:  180 !default;
+
+/* == BREAKPOINTS FROM BOOTSTRAP == */
+	
+	$grid-breakpoints: (
+  		xs: 0,
+  		sm: 576px,
+  		md: 768px,
+  		lg: 992px,
+  		xl: 1200px
+	);
+
+
+/* == BOOTSTRAP THEMING == */
+
+$line-height-base:				1.6;
+$spacer:						1.5625rem;
+$paragraph-margin-bottom:		2rem;
+$blockquote-font-size:			1.625rem;
+$blockquote-small-color:		$clr-white;
+
+/* Buttons */
+$input-btn-padding-y:			0.8rem;
+$input-btn-padding-x:			1.25rem;
+$btn-font-weight:				600;
+
+$border-radius:               	0rem;
+$border-radius-lg:            	0rem;
+$border-radius-sm:            	0rem;
+
+/* Menu */
+$navbar-dark-color:				#FFF;
+$nav-link-padding-x:			0rem;
+//$navbar-nav-link-padding-x:		1rem;
+//$navbar-dark-color:				#FFF;
+
+/* Card */
+$card-border-width:				0;
+$card-cap-bg:					transparant;
+$card-spacer-x:					2rem;
+
+/* Badge */
+$badge-font-size:				100%;
+$badge-padding-y:				0.5em;
+$badge-padding-x:				1.4em;
+
+/* List Group */
+$list-group-border-color:		$gray-100;
+$list-group-active-color:		$body-color;
+$list-group-active-bg:			transparant;
+$list-group-hover-bg:			transparant;
+
+// Modal
+$zindex-modal-backdrop: 999998;
+$zindex-modal: 999999;
+$modal-backdrop-opacity: 0.9;
+$modal-content-bg: transparant;
